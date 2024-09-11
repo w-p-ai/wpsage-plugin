@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: WPSage 
+ * Plugin Name: w-p.ai: Wordpress Agent
  * Description: A plugin for w-p.ai to manage the site via GPT prompts.
  * Version: 0.0.6
- * Author: Aaron Landy
+ * Author: w-p.ai
  * Author URI: https://w-p.ai
  * License URI: https://raw.githubusercontent.com/w-p-ai/wpsage-plugin/main/LICENSE
  * Text Domain: wpsage-api
@@ -350,8 +350,8 @@ class WPSage_Options_Access {
 
     public function add_admin_menu() {
         add_options_page(
-            'WPSage API Settings',
-            'WPSage API',
+            'w-p.ai - WPSage API Settings',
+            'w-p.ai - WPSage API',
             'manage_options',
             'wpsage-api-settings',
             array($this, 'settings_page')
