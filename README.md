@@ -1,4 +1,4 @@
-# WPSage Plugin
+# Plugin
 
 WPSage is a WordPress plugin designed to connect WordPress sites to w-p.ai, enabling development and management of WordPress sites via GPT prompting.
 
